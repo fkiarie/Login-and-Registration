@@ -1,8 +1,14 @@
 #include<iostream>
+#include<fstream>
+#include<string.h>
 using namespace std;
 
+void login();
+void registration();
+void forgot();
+
 int main(){
-    //start
+    
 
     return 0;
 }
