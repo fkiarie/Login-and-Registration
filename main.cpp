@@ -19,6 +19,7 @@ int main(){
     cout << "\t | press 3 to RECOVER PASSWORD   |"<< endl;
     cout << "\t | press 4 to EXIT               |"<< endl;
     cout << endl;
+    cout << "\t\tEnter choice: ";
     cin >> choice;
     
     switch(choice){
@@ -33,6 +34,7 @@ int main(){
             break;
         case 4:
             cout << "\t Thank you" << endl;
+            exit(0);
         default:
             system("cls");
             cout << "\t Select from the given options in the menu" << endl;
@@ -106,7 +108,7 @@ void forgot()
             {
                 if (sID == suserID)
                 {
-                    count == 1;
+                    count = 1;
                 }
                 
             }
@@ -133,7 +135,7 @@ void forgot()
         default: 
             cout << "\tWrong choice!" << endl;
             forgot();
-            
+        break;  
             
 
 
